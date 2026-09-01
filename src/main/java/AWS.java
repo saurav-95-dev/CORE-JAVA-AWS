@@ -43,6 +43,15 @@ particular user will also inherit any permission that we set for the group in wh
 →If we have a user which is not a part of any group , we can attach an inline policy to it.
 →A user which belongs to mutiple groups will inherit that policies applied on those groups to which that user belongs to .
 →IAM Policy structure - Consist of - Version , ID , Statement . And Statement consists of - Sid , Effect , Principal , Action , Resource , Condition (Optional).
+
+# IAM Security for users and Groups:
+→ IAM Security for users and groups :
+We can achieve this security in 2 ways  - IAM Password Policy & Multi Factor Authentication (MFA):
+
+→About IAM password policy : can set a min length pass , require specific character types , allow all iam users to change their own password , require users to change their pass after sometime (password expiration) , prevent password re-use .
+
+→MFA Device options in AWS : Virtual MFA Device (google authenticator , Authy) , Universal 2nd Factor (U2F) Security key (Support for mutiple root and IAM users using a single security key)
+→Hardware Key Fob MFA Device (by Gemalto - 3rd party to aws) , Hardware Key Fob MFA Device for GovCloud (US) (provided by - SurePassID - 3rd Party).
 */
 
 

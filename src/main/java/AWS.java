@@ -19,7 +19,58 @@ b)Availability Zones & Data Centers :
 →Each data centers of availability zones are connected via high bandwidth , ultra low latency network.
 
 c)AWS Points of Presence :
-→Amazon has 400+ POP in 90+ cities accross  40+ countries.
+→Amazon has 400+ POP in 90+ cities across  40+ countries.
 →Helps to deliver content to end users with lowest latency possible.
 
+#About IAM :
+3) IAM  AND AWS CLI :
+→ IAM INTRODUCTION:
+→IAM (Identity an->IAM - Identity and Access Management, Global Service.
+->Group in IAM can contain users and not other groups. (Important)
+->Users don't necessarily need to belong to a group. (not a good practice)
+->A user can belong to a multiple group.
+->We create users and groups to give them permission to use AWS service called IAM permission.
+->Users and Groups can be assigned JSON documents called policies.
+->This JSON Policy define permissions for the users.
+->In AWS we apply least privilege principal:Don't give more permission than a user needs.
+->When you create a user in IAM , it will be available everywhere as it is global service.
+→Suppose we create a group with a permission - "administrater access "and assigned a user in that group , then that
+particular user will also inherit any permission that we set for the group in which it is attached to.
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

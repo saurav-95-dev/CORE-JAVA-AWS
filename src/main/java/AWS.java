@@ -52,6 +52,16 @@ We can achieve this security in 2 ways  - IAM Password Policy & Multi Factor Aut
 
 →MFA Device options in AWS : Virtual MFA Device (google authenticator , Authy) , Universal 2nd Factor (U2F) Security key (Support for mutiple root and IAM users using a single security key)
 →Hardware Key Fob MFA Device (by Gemalto - 3rd party to aws) , Hardware Key Fob MFA Device for GovCloud (US) (provided by - SurePassID - 3rd Party).
+
+AWS Access Keys, CLI and SDK :
+
+→ There are 3 different option to access AWS Console -
+1)AWS Management Console (protected by passwords / MFA)
+2)AWS CLI : Protected by access keys.
+3)AWS SDK : for code - protected by access keys
+→Access keys are generated via AWS Console.
+→ Access Key ID ~ username
+→ Secret Access Key ~ password.
 */
 
 

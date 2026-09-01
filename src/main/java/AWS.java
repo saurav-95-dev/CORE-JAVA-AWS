@@ -36,6 +36,13 @@ c)AWS Points of Presence :
 ->When you create a user in IAM , it will be available everywhere as it is global service.
 →Suppose we create a group with a permission - "administrater access "and assigned a user in that group , then that
 particular user will also inherit any permission that we set for the group in which it is attached to.
+
+# IAM Policiees:
+→IAM POLICIES :
+→IAM Policies Inheritance - A policy which is applied to a group , then all the members/users inside that group will inherit that policy .
+→If we have a user which is not a part of any group , we can attach an inline policy to it.
+→A user which belongs to mutiple groups will inherit that policies applied on those groups to which that user belongs to .
+→IAM Policy structure - Consist of - Version , ID , Statement . And Statement consists of - Sid , Effect , Principal , Action , Resource , Condition (Optional).
 */
 
 

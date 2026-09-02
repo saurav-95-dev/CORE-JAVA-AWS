@@ -66,7 +66,13 @@ AWS Access Keys, CLI and SDK :
 # AWS Cloud Shell Service - Alternative to AWS-CLI - Regional scoped
 
 ## - For using AWS Management Console - via AWS CLI - command:
-$ aws configure
+saurabhdev@192 ~ % aws configure
+AWS Access Key ID - xyz
+AWS Secret Access Key - xyz
+Default region name [ap-south-1]: ap-south-1
+Default output format [clear]: json
+saurabhdev@192 ~ % aws iam list-users
+
 
 
 */

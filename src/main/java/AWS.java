@@ -62,6 +62,11 @@ AWS Access Keys, CLI and SDK :
 →Access keys are generated via AWS Console.
 → Access Key ID ~ username
 → Secret Access Key ~ password.
+
+# AWS Cloud Shell Service - Alternative to AWS-CLI - Regional scoped
+
+
+
 */
 
 

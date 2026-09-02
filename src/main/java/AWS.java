@@ -65,6 +65,8 @@ AWS Access Keys, CLI and SDK :
 
 # AWS Cloud Shell Service - Alternative to AWS-CLI - Regional scoped
 
+## - For using AWS Management Console - via AWS CLI - command:
+$ aws configure
 
 
 */

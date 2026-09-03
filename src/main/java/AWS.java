@@ -16,6 +16,8 @@ IAM Policy Structure :
   ]
 }
 
+# AWS-CLI - 3 options - AWS Management Console, AWS CLI, AWS SDK
+
 
 
 */

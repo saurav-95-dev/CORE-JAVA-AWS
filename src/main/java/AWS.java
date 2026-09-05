@@ -28,10 +28,10 @@ people, but instead, they will be used by AWS Services.
 in AWS . If the permission attached to that IAM role is correct , then it will be able to call the required service from AWS.
 
 
+EC2-Fundamentals :
 
-
-
-
+#SSH using Linux/Mac:
+->Command to ssh into EC2 instance - ssh -i EC2Tutorial.pem ec2-user@13.233.117.224
 
 
 */

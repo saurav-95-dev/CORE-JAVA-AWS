@@ -32,6 +32,7 @@ EC2-Fundamentals :
 
 #SSH using Linux/Mac:
 ->Command to ssh into EC2 instance - ssh -i EC2Tutorial.pem ec2-user@13.233.117.224
+-SSH - remotely control the EC2 Intance
 
 
 */

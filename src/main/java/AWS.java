@@ -27,13 +27,9 @@ people, but instead, they will be used by AWS Services.
 ->For any service for example EC2 - we have IAM Role with permission attahced to it which will try to access some service
 in AWS . If the permission attached to that IAM role is correct , then it will be able to call the required service from AWS.
 
-
-EC2-Fundamentals :
-
-#SSH using Linux/Mac:
-->Command to ssh into EC2 instance - ssh -i EC2Tutorial.pem ec2-user@13.233.117.224
--SSH - remotely control the EC2 Intance
-
+# EBS Volumme :
+-> EBS Volume are bound in a specific AZ.
+-> EBS snapshots features - SS Archive, Recycle Bin, Fast SS Restore (FSR)
 
 */
 

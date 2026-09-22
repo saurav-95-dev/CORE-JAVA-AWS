@@ -31,6 +31,13 @@ in AWS . If the permission attached to that IAM role is correct , then it will b
 -> EBS Volume are bound in a specific AZ.
 -> EBS snapshots features - SS Archive, Recycle Bin, Fast SS Restore (FSR)
 
+# EBS Snapshots :
+-> We can create EBS volume accross different regions.
+-> Multi-attach feature - only available for io1/io2 family.
+-> Can allow upto 16 instance at a time.
+-> Must use file system that is cluster aware.
+
+
 */
 
 

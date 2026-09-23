@@ -42,7 +42,16 @@ in AWS . If the permission attached to that IAM role is correct , then it will b
 -> Only Compatible with LINUX Based AMI.
 
 #LOAD BALANCER (servers) - ELB - Elastic Load balancer.
-->
+- REASON TO USE ELB:
+-> Load Balancer has health check machanism through which it can determine which instance it has to send traffic to.
+-> It can provide SSL termination (HTTPS) for your websites.
+-> It can also separate public traffic from private traffic.
+
+- TYPES OF MANAGES LOAD BALANCER ON AWS:
+1)Classic Load balancer.
+2)Application load balancer.
+3)Network load balancer.
+4)Gateway load balancer.
 
 
 */

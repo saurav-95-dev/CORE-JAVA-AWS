@@ -37,6 +37,13 @@ in AWS . If the permission attached to that IAM role is correct , then it will b
 -> Can allow upto 16 instance at a time.
 -> Must use file system that is cluster aware.
 
+# EFS - Elatic File System :
+-> Use content management,  web serving, data sharing, Word-Press.
+-> Only Compatible with LINUX Based AMI.
+
+#LOAD BALANCER (servers) - ELB - Elastic Load balancer.
+->
+
 
 */
 

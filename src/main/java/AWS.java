@@ -53,6 +53,14 @@ in AWS . If the permission attached to that IAM role is correct , then it will b
 3)Network load balancer.
 4)Gateway load balancer.
 
+# APPLICATION LOAD BALANCER:
+->Application load balancer - for - Micro-services and container-based application (eg-Docker and Amazon ECS)
+
+# Amazon Route 53 :
+-> Route 53 is also a Domain Registrar(mean you can register your domain name).
+-> Ability to check the health of your resources.
+-> Only AWS Service that provide 100% Availability.
+-> 53 is a reference to traditional DNS port.
 
 */
 

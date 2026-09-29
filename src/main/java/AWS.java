@@ -85,6 +85,9 @@ Route 53 important record type:
 - Can't be associated with the health-checks.
 - When Alias is enabled, secify only one aws resource.
 
+2)Weighted Routing Policy :
+- can be associated with health-checks.
+- Loadbalancing between different regions and testing for different versions of application.
 
 */
 

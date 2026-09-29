@@ -62,6 +62,23 @@ in AWS . If the permission attached to that IAM role is correct , then it will b
 -> Only AWS Service that provide 100% Availability.
 -> 53 is a reference to traditional DNS port.
 
+Route 53 Records :
+-Domain/Subdomain name
+-Record type
+-Value of the record.
+-Routing policy.
+-TTL
+-A/AAAA/CNAME/NS
+
+Route 53 important record type:
+-A : hostname - ipv4
+-AAAA : hostname - ipv6
+-CNAME : HOSTNAME - HOSTNAME
+-NS : Name server for hosted zone
+
+*TTL is mandatory for each DNS record except for alias record.
+
+
 */
 
 

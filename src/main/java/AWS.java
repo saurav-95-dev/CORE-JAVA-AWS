@@ -113,6 +113,12 @@ Latency based Routing vs Geolocation based Routing:
 ->latency - based on traffic b/t users and aws regin whereas later is based purely on user geographical location.
 ->Geolocation - Website localization , restrict content distribution.
 
+# Geoproximity - Route traffic to a particular resource in a specific region based on defined bias on that resource.
+
+# IP-Based Routing - Has a set of CIDRs values (with corresponding endpoint/location).
+
+# Mutivalue - Can help to route to mutiple resources on different regions.
+-Will always return healthy rsponse (upto 8)
 
 */
 

@@ -86,6 +86,7 @@ Route 53 important record type:
 5)Geoproximity (apply bias to specific resource in a specific region)
 6)IP-Based - when you know client IP ahead of time.
 7)Multivalue.
+8)Failover
 
 CNAME VS Alias :
 - Both are basically record type .
@@ -97,7 +98,12 @@ CNAME VS Alias :
 -They are for both root as well as non-root domain.
 -Also free of charge.
 -Native health check available.
+** We can't set TTL for Alias records.
 
+# Routing Policy-Facts :
+1)Simple:
+-Specify mutiple ip in the same record.
+-When alias is enabled , specify only on aws resource
 
 
 */

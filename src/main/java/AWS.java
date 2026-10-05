@@ -78,16 +78,15 @@ Route 53 important record type:
 
 *TTL is mandatory for each DNS record except for alias record.
 
-#Routing policies for Route 53:
--> Simple, weighted, failover, latency based, geolocation, multi-value answer, geo-proximity.
+#Routing Policy for Route 53:
+1)Simple (no health checks)
+2)Weighted (health checks - YES)
+3)Latency (health checks -YES)
+4)GeoLocation
+5)Geoproximity (apply bias to specific resource in a specific region)
+6)IP-Based - when you know client IP ahead of time.
+7)Multivalue.
 
-1)Simple:
-- Can't be associated with the health-checks.
-- When Alias is enabled, secify only one aws resource.
-
-2)Weighted Routing Policy :
-- can be associated with health-checks.
-- Loadbalancing between different regions and testing for different versions of application.
 
 */
 

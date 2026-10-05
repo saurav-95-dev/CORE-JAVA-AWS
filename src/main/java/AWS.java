@@ -87,6 +87,18 @@ Route 53 important record type:
 6)IP-Based - when you know client IP ahead of time.
 7)Multivalue.
 
+CNAME VS Alias :
+- Both are basically record type .
+-CNAME -
+-Points a host name to another hostname.
+-They are only for non-root domain
+-Alias -
+-Points a host name to aws resource.
+-They are for both root as well as non-root domain.
+-Also free of charge.
+-Native health check available.
+
+
 
 */
 

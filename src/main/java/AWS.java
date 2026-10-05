@@ -105,6 +105,14 @@ CNAME VS Alias :
 -Specify mutiple ip in the same record.
 -When alias is enabled , specify only on aws resource
 
+- Health-Checks:
+->There are total 15 global health-checks that monitor an endpoint.
+-> if >18% of the healthchecks report endpoint as healthy , then Route 53 considers it healthy.
+
+Latency based Routing vs Geolocation based Routing:
+->latency - based on traffic b/t users and aws regin whereas later is based purely on user geographical location.
+->Geolocation - Website localization , restrict content distribution.
+
 
 */
 

@@ -127,6 +127,12 @@ Latency based Routing vs Geolocation based Routing:
 ->Is a managed service
 ->Automatically handles - provision capacity , load balancing , scaling , app health checks, instance configuration
 
+BeanStalk Components:
+-Application - Collection of Elastic Beanstalk components - env , versions , configurations..
+-Aplication version.
+-Environment - Collection of aws resources running an application version.
+-Tiers - Web server env tier and worker env tier
+-Can create multiple env.
 */
 
 

@@ -120,6 +120,13 @@ Latency based Routing vs Geolocation based Routing:
 # Mutivalue - Can help to route to mutiple resources on different regions.
 -Will always return healthy rsponse (upto 8)
 
+# Classic Solution Architecture:
+-Elastic BeanStalk :
+-> Developer centric view of deploying an application.
+-> It uses components like - EC2 , ASG , ELB , RDS etc.
+->Is a managed service
+
+
 */
 
 

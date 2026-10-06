@@ -125,7 +125,7 @@ Latency based Routing vs Geolocation based Routing:
 -> Developer centric view of deploying an application.
 -> It uses components like - EC2 , ASG , ELB , RDS etc.
 ->Is a managed service
-
+->Automatically handles - provision capacity , load balancing , scaling , app health checks, instance configuration
 
 */
 

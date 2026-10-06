@@ -133,6 +133,10 @@ BeanStalk Components:
 -Environment - Collection of aws resources running an application version.
 -Tiers - Web server env tier and worker env tier
 -Can create multiple env.
+
+** Web server env Tier - utilises ELB - talks to EC2 instance.
+** Worker env tier - use SQS queue to talk to EC2 instances.
+
 */
 
 

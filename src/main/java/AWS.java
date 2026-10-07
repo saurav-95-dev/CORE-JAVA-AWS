@@ -154,6 +154,14 @@ BeanStalk Components:
 ->resource based - bucket policies , object access control list , bucket access control list.
 ->encryption
 
+#S3 Replication :
+->Enable versioning required in source and target bucket
+->Cross region replication.
+->same region replication.
+->Copying will be asynchronous .
+->S3 must have proper IAM permission.
+
+
 */
 
 

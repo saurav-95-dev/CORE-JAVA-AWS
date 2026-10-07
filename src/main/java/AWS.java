@@ -161,6 +161,11 @@ BeanStalk Components:
 ->Copying will be asynchronous .
 ->S3 must have proper IAM permission.
 
+# To replicate existing object - use S3 Batch replication.
+->Can replicate delete markers from source - target .
+->Deletion with a version ID are not replicated.
+->Not chaining of replication ->
+-A->B AND A->C is allowed but A->B->C is not allowed.
 
 */
 

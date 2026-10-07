@@ -144,6 +144,15 @@ BeanStalk Components:
 ->infinitely scaling bucket.
 ->Backup and storage , Disaster recovery, Archive , Hybrid cloud storage, media hosting, static hosting, application hosting,data lakes / big data analytics
 
+#Amazon S3 Buckets-
+->buckets -> objects(files) -- keys (full path of the object)
+->Objects -> Contain -> meta-data , tags , versions .
+
+
+#S3 Bucket security-
+->User based - IAM Roles.
+->resource based - bucket policies , object access control list , bucket access control list.
+->encryption
 
 */
 

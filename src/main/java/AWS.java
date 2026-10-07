@@ -137,6 +137,14 @@ BeanStalk Components:
 ** Web server env Tier - utilises ELB - talks to EC2 instance.
 ** Worker env tier - use SQS queue to talk to EC2 instances.
 
+- Elastic BeanStalk Deployment modes:
+->Single instance(uses Elastic IP) and High availability with load balancer(uses application load balancer).
+
+# Amazon S3 :
+->infinitely scaling bucket.
+->Backup and storage , Disaster recovery, Archive , Hybrid cloud storage, media hosting, static hosting, application hosting,data lakes / big data analytics
+
+
 */
 
 

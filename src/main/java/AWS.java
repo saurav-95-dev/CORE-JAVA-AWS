@@ -189,7 +189,10 @@ BeanStalk Components:
 -s3 transfer accelaration - increase transfer speed by using AWS edge location via AWS private network accross different region.
 -> s3 byte range fetch - better resilience in case of failures.
 
-
+#S3 Batch opearation :
+->Bulk operation on existing object - modify , copy , encrypt an un-encrypt object.
+-> Restore objects from s3 GLACIER.
+->Can use S3 Inventory to get object list and use Athena to query and filter our objects.
 */
 
 

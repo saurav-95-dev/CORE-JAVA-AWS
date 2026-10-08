@@ -167,6 +167,11 @@ BeanStalk Components:
 ->Not chaining of replication ->
 -A->B AND A->C is allowed but A->B->C is not allowed.
 
+# Advanced Amazon S3 :
+->Moving between different -> can be automated using -> Life cycle rules - Saves cost.
+->S3 Lifeycle rules - Transition rules & expiration(related to deletion of objects)rules
+->
+
 */
 
 

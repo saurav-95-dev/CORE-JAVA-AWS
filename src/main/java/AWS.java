@@ -176,6 +176,15 @@ BeanStalk Components:
 -Recommendation only for standard and standard IA.(Does not work for 1Zone IA or glacier)
 -Basically to improve life-cycle rules.
 
+#S3 Requester pay Service - Requester pays cost for data download from the bucket and the networking cost.
+*(requester must be authenticated in AWS) .
+
+# S3 Event Notification :
+- For generating multiple thumbnails for the  images in the S3 bucket.
+- Need IAM permisions via - SNS , SQS , Lamda function .
+- All the event can get stored under Amazon event bridge and through the set of rules those events can be sent to 18 aws resource as destinations
+
+
 
 */
 

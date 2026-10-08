@@ -184,6 +184,10 @@ BeanStalk Components:
 - Need IAM permisions via - SNS , SQS , Lamda function .
 - All the event can get stored under Amazon event bridge and through the set of rules those events can be sent to 18 aws resource as destinations
 
+#S3 Baseline performance -
+->multipart uploads - file divided into smaller chunks and then gets uploaded part by part.
+-s3 transfer accelaration - increase transfer speed by using AWS edge location via AWS private network accross different region.
+-> s3 byte range fetch - better resilience in case of failures.
 
 
 */

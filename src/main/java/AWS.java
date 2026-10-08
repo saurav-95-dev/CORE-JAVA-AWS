@@ -170,7 +170,12 @@ BeanStalk Components:
 # Advanced Amazon S3 :
 ->Moving between different -> can be automated using -> Life cycle rules - Saves cost.
 ->S3 Lifeycle rules - Transition rules & expiration(related to deletion of objects)rules
-->
+
+# S3 Analytics - Storage class analytics:
+-Optimize transition of object at right time.
+-Recommendation only for standard and standard IA.(Does not work for 1Zone IA or glacier)
+-Basically to improve life-cycle rules.
+
 
 */
 

@@ -12,6 +12,8 @@ class Main{
 → SIMPLICITY:
 → java removed - Pointers from C++ , Multiple Inheritance, Manual memory allocation/deallocation.
 
+#Security:
+→ JVM provide a secured env to run java byte code which is basically called -  Java Sandbox Model.
         */
     }
 }

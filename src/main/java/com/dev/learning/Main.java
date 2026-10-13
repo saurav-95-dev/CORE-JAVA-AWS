@@ -14,6 +14,13 @@ class Main{
 
 #Security:
 → JVM provide a secured env to run java byte code which is basically called -  Java Sandbox Model.
+
+JVM, JDK AND JRE & JSE vs JEE vs JME :
+-> JDK -> JRE -> JVM
+->Java Source code -->compiler --> gives --> byte code --> This byte code will run inside JVM which will convert this byte code to machine code.
+->JVM Convert this byte code to machine code with the help of Interpreter.
+
+
         */
     }
 }

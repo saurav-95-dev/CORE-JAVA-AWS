@@ -18,6 +18,8 @@ class Main{
 JVM, JDK AND JRE & JSE vs JEE vs JME :
 -> JDK -> JRE -> JVM
 ->Compiler vs Interpreter - Both convert source code to machine code with only 1 difference. Compiler convert source code to machine code all at once where as Interpreter converts line by line.
+->C/C++ is a compiled language whereas Python is an Interpreted language .
+->Java follows a hybrid model - Both Compiled + Interpreted.
 ->Java Source code -->compiler --> gives --> byte code --> This byte code will run inside JVM which will convert this byte code to machine code.
 ->JVM Convert this byte code to machine code with the help of Interpreter.
 

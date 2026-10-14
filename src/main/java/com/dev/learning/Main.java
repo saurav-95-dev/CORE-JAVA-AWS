@@ -10,7 +10,11 @@ public class Main{
         byte j;
         j = (byte) i;
         System.out.println(j);
-
+        //Truncate Conversion :
+        float f = 12.34f;
+        int a;
+        a = (int)f;
+        System.out.println(a);
 
     }
 }

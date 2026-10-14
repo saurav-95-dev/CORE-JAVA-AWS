@@ -5,7 +5,11 @@ public class Main{
         byte num1 = 12;
         int num2 = num1;
         System.out.println(num2); //implicit
-
+        //explicit type conversion:
+        int i = 11;
+        byte j;
+        j = (byte) i;
+        System.out.println(j);
 
 
     }

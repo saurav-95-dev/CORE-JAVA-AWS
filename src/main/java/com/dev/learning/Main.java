@@ -16,5 +16,11 @@ public class Main{
         a = (int)f;
         System.out.println(a);
 
+        //Automatic Type promotion:
+        byte x = 12;
+        byte z = (byte) (x * 2);
+        System.out.println(z);
+
+
     }
 }

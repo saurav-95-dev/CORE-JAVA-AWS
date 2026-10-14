@@ -21,6 +21,12 @@ public class Main{
         byte z = (byte) (x * 2);
         System.out.println(z);
 
+        //Special case :
+        int y = 300;
+        byte y1 = (byte) y;
+        System.out.println("Truncated data for 300:" + y1);
+
+
 
     }
 }

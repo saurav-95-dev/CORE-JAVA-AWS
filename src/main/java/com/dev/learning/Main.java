@@ -1,19 +1,18 @@
+package com.dev.learning;
+
 public class Main{
     public static void main(String[] args){
-        System.out.println("Switch case");
-        int i = 13;
-        switch(i){
-            case 1:
-                System.out.println("This is 1");
-                break;
-            case 2:
-                System.out.println("This is 2");
-                break;
-            case 3:
-                System.out.println("This is 3");
-                break;
-            default:
-                System.out.println("This is default");
+        System.out.println("Arrays in Java:");
+        int[] arr = new int[15];
+        int k = 0;
+        for(int i=0;i<10;i++){
+            arr[k]=i*2;
+            k++;
         }
+        //printing arr:
+        for(int i : arr){
+            System.out.println(i);
+        }
+
     }
 }
